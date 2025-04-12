@@ -1,6 +1,9 @@
 package com.example.rentaautos.Entity;
-
+//@Entity
+//@Table(name = "auto")
 public class Auto {
+    //@Id
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String modelo;
     private String color;
